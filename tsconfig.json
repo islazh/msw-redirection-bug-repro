@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "outDir": "dist",
+    "module": "ES2022",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/*.spec.ts"]
+}
